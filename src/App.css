@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c2c79c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wrapper{
+  background-color: #ece509;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  border-color: black;
+  border: solid;
+}
+.Input-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  border: black;
+  border: solid;
+}
+.Input-wrapper input{
+  border-radius: 4%;
+  border: 0;
+  background-color: rgb(253, 253, 254);
+  width: 250px;
+  padding: 6px;
+  height: 20px;
+  margin: 10px;
+}
+.Input-wrapper button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+  border: black;
+  border: solid;
 }
